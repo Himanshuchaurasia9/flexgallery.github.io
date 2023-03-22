@@ -1,0 +1,29 @@
+@media (max-width:1024px) {
+    .main{
+        overflow: auto;
+        min-height: 50vh;
+    }
+}
+@media (max-width:760px){
+    .main{
+        overflow: auto;
+        min-height: 50vh;
+        
+    }
+}
+@media (max-width: 480px) {
+    .main{
+        overflow: auto;
+        min-height: 50vh;
+    }
+    .main img{
+        height: 200px;
+    }
+    .main img:hover{
+        flex: 5;
+        height: 300px;
+    }
+    footer{
+        font-size: .8rem;
+    }
+}
